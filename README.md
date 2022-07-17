@@ -4,10 +4,7 @@ README still in progress... !!!
 
 
 ## Project Structur:
-![grafik](./_resources/TODO)
-![grafik](./_resources/TODO)
-![grafik](./_resources/TODO)
-![grafik](./_resources/TODO)
+![grafik](./_resources/e4cee79d463a49f4a57645cde49c1120.jpg)
 
 
 ## Zeichnung Projekt
@@ -21,9 +18,14 @@ README still in progress... !!!
 |   pin  | todo  | module  | todo  |
 
 
+## shopping list
+
+![grafik](./_resources/ebay_articles.png)
+
+
 ### Movement Sensors
 
-- here you see the standard way of connecting the MCP with the raspberry, but its also possible to use the second SPI Bus, (as shown in the table at the top)
+- here you see how to connect the movement sensors with the ESP
 
 | ESPNodeMCU | Sensors |
 | --- | --- |
