@@ -69,19 +69,32 @@ im MüllContainer einer naheliegenden Schule...
 | Pin 1 (3.3V) | Pin 16 (VDD) TODO |
 | Pin 6 (GND) | Pin 14 (GND) TODO |
 
+## Pinouts
+
+#### Pinout ESP-NodeMCU
+
+![grafik](./_resources/esp-nodeMCU_pinout.png)
+
 
 #### Pinout 4 channel relay
 ![grafik](./_resources/pinout_4Channel_relay.png)
 
+### Pinout movement sensor
 
-### Datasheets:
-[datasheet file](./_resources/datasheets/4-kanal-relais.pdf)
-[file](./_resources/datasheets/sr501_pir_movement_sensor.pdf)
+![grafik](./_resources/movement_sensor_pinout.png)
+
+
+
+## Datasheets:
+- [datasheet-4-Channel-relay.pdf](./_resources/datasheets/4-kanal-relais.pdf)
+- [datasheet-movementsensor-sr501.pdf](./_resources/datasheets/sr501_pir_movement_sensor.pdf)
 
 
 ## shopping list
 
-![grafik](./_resources/ebay_articles.png)
+- Makershop, 4 Channel relay ~5,00€ 
+    - e.g. here: [makershop.de](https://www.makershop.de/module/relais/4-kanal-relais/)
+- Makershop, HC-SR501 PIR ~3,00€ 
+    - e.g. here: [makershop.de](https://www.makershop.de/sensoren/infrarot-2/hc-sr501/)
 
-- Makershop, 4 Channel relay: 
-- e.g. here: [makershop.de](https://www.makershop.de/module/relais/4-kanal-relais/)
+
