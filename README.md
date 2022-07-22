@@ -4,7 +4,6 @@ README still in progress... !!!
 
 ## What you can find here ?
 - acutally not that much complicated or worth sharing, just a fun project...  ;-)
-- just my litte project
 - there will be some cpp code for the esp (4 Channel - Relais, Movement Sensors)
 - maybe some MQTT or http for remote control
 - Documentation and some pictures 
@@ -22,12 +21,14 @@ im MüllContainer einer naheliegenden Schule...
 > ein Mikrokontroller mitverbaut werden, ein paar Lampen und Bewegungssensoren. 
 > Das tolle ist die OHPs bieten schon eine ordentliche Verkabelung und solide Kippschalter.
 > 
->**Aktoren**
+>**Aktoren**:
+>
 > Es sollen 2 Leuchten hinter die Glasscheiben, sowie ggf noch 2 LED Strahler den Spiegel von unten anstrahlen.
 > Geschaltet werden diese vom ESP-NodeMCU mittels eines 4-Kanal Relais.
 > 
 > 
-> **Sensoren**
+> **Sensoren**:
+>
 > Aktuelle Idee ist in der Sockelleiste mittig sowie an den Seitenteilen die Bewegungssensoren zu platzieren.
 > So kann der Schrank zum einen Licht einschalten wenn man davor steht / vorbei läuft und durch die 3 Sensoren
 > sollte es zusätzlich möglich sein, das sich (bei einer Person in der Wohnung) die Position in welchem Raum 
@@ -69,10 +70,18 @@ im MüllContainer einer naheliegenden Schule...
 | Pin 6 (GND) | Pin 14 (GND) TODO |
 
 
+#### Pinout 4 channel relay
+![grafik](./_resources/pinout_4Channel_relay.png)
+
+
+### Datasheets:
+[datasheet file](./_resources/datasheets/4-kanal-relais.pdf)
+[file](./_resources/datasheets/sr501_pir_movement_sensor.pdf)
 
 
 ## shopping list
 
 ![grafik](./_resources/ebay_articles.png)
 
-
+- Makershop, 4 Channel relay: 
+- e.g. here: [makershop.de](https://www.makershop.de/module/relais/4-kanal-relais/)
